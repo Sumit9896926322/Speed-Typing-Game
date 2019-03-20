@@ -1,0 +1,31 @@
+body{
+background: url("img/laptop-3190194_1920.jpg") no-repeat center center fixed;
+background-size: cover;
+}
+
+h1{
+  font-size:60px;
+  font-weight: 700;
+  background-color:lightgrey;
+  font-family: 'Lobster', cursive;
+}
+
+.rowheight{
+  height: 350px;
+}
+
+.setimg{
+  height: 200px;
+  width: 250px;
+
+}
+
+.copy{
+  d
+  margin-right: 50px;
+  background-color: white;
+  height:80px;
+  float: right;
+  font-size: 30px;
+
+}

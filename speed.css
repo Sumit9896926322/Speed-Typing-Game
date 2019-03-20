@@ -1,0 +1,83 @@
+.top-header{
+position: relative;
+margin: 20px;
+text-align: center;
+background: darkgrey;
+font-family: fantasy;
+}
+.text-input{
+top: 190px;
+position: relative;
+max-width: 500px;
+margin: auto;
+border: 2px solid;
+}
+.hints{
+  height: 0px;
+  width: 70%;
+  position: absolute;
+  top: 480px;
+  left: 116px;
+}
+.question{
+  width: 50%;
+height: 100p;
+height: 100px;
+margin: auto;
+margin-bottom: 25px;
+}
+.question-statement{
+  text-align: center;
+    font-size: 60px;
+    margin: auto;
+    font-family: cursive;
+}
+.score{
+height: 100px;
+width: 200px;
+border-radius: 50px 50px 50px 0px;
+margin: auto;
+display: inline-block;
+margin-left: 200px;
+text-align: center;
+  background: mediumspringgreen;
+}
+.score-value{
+  font-family: fantasy;
+  font-size: 30px;
+}
+.Time-remaining{
+  font-family: fantasy;
+  font-size: 30px;
+}
+.time-left{
+height: 100px;
+width: 200px;
+border-radius: 50px 50px 0px 50px;
+margin: auto;
+display: inline-block;
+margin-left: 200px;
+text-align: center;
+    background: antiquewhite;
+}
+.message{
+position: absolute;
+text-align: center;
+top: 400px;
+font-size: 30px;
+font-family: cursive;
+width: 100%;
+padding: 15px;
+font-weight: 200;
+}
+.mid {
+      display: flex;
+}
+
+@keyframes sumit {
+0%:{top:0,left:20};
+25%:{top:0,left:25}
+50%:{top:0,left:50}
+75%:{top:0,left:75}
+100%:{top:0,left:100}
+}
